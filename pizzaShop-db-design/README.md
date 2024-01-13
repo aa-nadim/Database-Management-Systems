@@ -1,6 +1,6 @@
 # pizza-shop-database-design
 
-Link==>[User Roles and Permissions](https://github.com/aa-nadim/pizzaShop-db-design/tree/main/userRoleAndPermissions#user-roles-and-permissions)
+Link==>[User Roles and Permissions](https://github.com/aa-nadim/dbms/blob/main/userRoleAndPermissions/README.md#user-roles-and-permissions)
 
 Main areas of focus
 -
@@ -114,9 +114,9 @@ staff
 
 # ER diagram
 
-![alt text](https://github.com/aa-nadim/pizzaShop-db-design/blob/main/images/ER%20diagram%20of%20Pizza-Shop.png?raw=true)
+![alt text](https://github.com/aa-nadim/dbms/blob/main/pizzaShop-db-design/images/ER-diagram-of-PizzaShop.png?raw=true)
 
-![alt text](https://github.com/aa-nadim/pizzaShop-db-design/blob/main/images/ER%20of%20BD.png?raw=true)
+![alt text](https://github.com/aa-nadim/dbms/blob/main/pizzaShop-db-design/images/ER-of-BD.png?raw=true)
 
 # DDL & Indexing
 
@@ -267,10 +267,10 @@ REFERENCES `staff` (`staff_id`);
 
 ```
 
-![alt text](https://github.com/aa-nadim/pizzaShop-db-design/blob/main/images/DDL%20of%20Pizza-Shop-DB.png?raw=true)
+![alt text](https://github.com/aa-nadim/dbms/blob/main/pizzaShop-db-design/images/DDL-of-PizzaShopDB.png?raw=true)
 
 
-![alt text](https://github.com/aa-nadim/pizzaShop-db-design/blob/main/images/pizza-shop-db.png?raw=true)
+![alt text](https://github.com/aa-nadim/dbms/blob/main/pizzaShop-db-design/images/pizza-shop-db.png?raw=true)
 
 
 # Dashboard 1 - Order activity

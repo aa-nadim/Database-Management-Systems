@@ -39,7 +39,7 @@ UserPermission Table:
 
 # ER Diagram
 
-![alt text](https://github.com/aa-nadim/pizzaShop-db-design/blob/main/userRoleAndPermissions/images/user-role-and-permission.png?raw=true)
+![alt text](https://github.com/aa-nadim/dbms/blob/main/userRoleAndPermissions/images/user-role-and-permission.png?raw=true)
 
 
 # DDL
