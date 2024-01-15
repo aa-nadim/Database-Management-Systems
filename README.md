@@ -13,4 +13,5 @@ RDBMS
 Projects
 -
 - [User Roles and Permissions](https://github.com/aa-nadim/dbms/blob/main/userRoleAndPermissions/README.md#user-roles-and-permissions)
+- [Role Based Access Control](https://github.com/aa-nadim/dbms/blob/main/role-based-access-control/README.md#role-based-access-control)
 - [PizzaShop Database Design](https://github.com/aa-nadim/dbms/blob/main/pizzaShop-db-design/README.md#pizza-shop-database-design)
