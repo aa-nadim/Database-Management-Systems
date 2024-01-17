@@ -9,7 +9,6 @@ triggers are of two types:
 
 # Example
 - Create table:
--
 ```
 CREATE TABLE employee(  
     name varchar(45) NOT NULL,    
@@ -19,7 +18,6 @@ CREATE TABLE employee(
 );  
 ```
 - Insert data:
--
 ```
 INSERT INTO employee VALUES    
 ('Robin', 'Scientist', '2020-10-04', 12),  
@@ -30,7 +28,6 @@ INSERT INTO employee VALUES
 ('Antonio', 'Business', '2020-10-04', 11);  
 ```
 - Create *TRIGGER:
--
 - `we will create a BEFORE INSERT trigger. This trigger is invoked automatically insert the working_hours = 0 if someone tries to insert working_hours < 0.`
 ```
 DELIMITER //  
@@ -43,7 +40,6 @@ END //
 ```
 
 - NOW insert data:
--
 ```
 INSERT INTO employee VALUES    ('Markus', 'Former', '2020-10-08', 14); 
 --=========>Markus	Former	2020-10-08	14
