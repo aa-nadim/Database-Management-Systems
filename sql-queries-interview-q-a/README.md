@@ -1,29 +1,5 @@
 # SQL Queries Interview Q&A
 
-# DDL
-
-```
--- EmployeeInfo Table
-CREATE TABLE EmployeeInfo (
-    EmpID INT PRIMARY KEY,
-    EmpFname VARCHAR(50),
-    EmpLname VARCHAR(50),
-    Department VARCHAR(50),
-    Address VARCHAR(255),
-    DOB DATE,
-    Gender CHAR(1) -- Assuming 'M' or 'F' for Male or Female
-);
-
--- EmployeePosition Table
-CREATE TABLE EmployeePosition (
-    EmpPosID INT PRIMARY KEY,
-    EmpID INT,
-    EmpPosition VARCHAR(50),
-    DateOfJoining DATE,
-    Salary DECIMAL(10, 2), -- Adjust the precision and scale as needed
-    FOREIGN KEY (EmpID) REFERENCES EmployeeInfo(EmpID)
-);
-```
 EmployeeInfo Table:
 -
 ![alt text](https://github.com/aa-nadim/dbms/blob/main/sql-queries-interview-q-a/images/tbl-empInfo.png?raw=true)
