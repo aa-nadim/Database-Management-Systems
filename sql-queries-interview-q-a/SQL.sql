@@ -39,9 +39,6 @@ SELECT MID(Address, 0, LOCATE('(',Address)) FROM EmployeeInfo;
 
 ---
 --Q6. Write a query to create a new table which consists of data and structure copied from the other table.
---Using the SELECT INTO command:
-SELECT * INTO NewTable FROM EmployeeInfo WHERE 1 = 0;
-
 --Using the CREATE command in MySQL:
 CREATE TABLE NewTable AS SELECT * FROM EmployeeInfo;
 
@@ -54,14 +51,7 @@ SELECT * FROM EmployeePosition WHERE Salary BETWEEN '50000' AND '100000';
 --Q8. Write a query to find the names of employees that begin with ‘S’
 SELECT * FROM EmployeeInfo WHERE EmpFname LIKE 'S%';
 
-----
---Q9. Write a query to fetch top N records.
 
---By using the TOP command in SQL Server:
-SELECT TOP N * FROM EmployeePosition ORDER BY Salary DESC;
-
---By using the LIMIT command in MySQL:
-SELECT * FROM EmpPosition ORDER BY Salary DESC LIMIT N;
 
 ---
 --Q10. Write a query to retrieve the EmpFname and EmpLname in a single column as “FullName”. The first name and the last name must be separated with space.
