@@ -49,3 +49,8 @@ INSERT INTO employee VALUES    ('Alexander', 'Actor', '2020-10-012', -13);
 ```
 ![alt text](https://github.com/aa-nadim/dbms/blob/main/TRIGGER/trigger.png?raw=true)
 
+Show TRIGGERS:
+-
+`SHOW TRIGGERS;`
+
+![alt text](https://github.com/aa-nadim/dbms/blob/main/TRIGGER/show-triggers.png?raw=true)

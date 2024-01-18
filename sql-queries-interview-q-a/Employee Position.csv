@@ -1,0 +1,6 @@
+﻿EmpPosID,EmpID,EmpPosition,DateOfJoining,Salary
+1,1,Manager,2024-01-05,500000
+2,2,Executive,2024-02-05,75000
+3,3,Manager,2024-01-05,90000
+4,2,Lead,2024-02-05,85000
+5,1,Executive,2024-01-05,300000
