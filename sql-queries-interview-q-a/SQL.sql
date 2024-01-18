@@ -39,7 +39,6 @@ SELECT MID(Address, 0, LOCATE('(',Address)) FROM EmployeeInfo;
 
 ---
 --Q6. Write a query to create a new table which consists of data and structure copied from the other table.
---Using the CREATE command in MySQL:
 CREATE TABLE NewTable AS SELECT * FROM EmployeeInfo;
 
 ---
