@@ -42,7 +42,7 @@ SELECT MID(Address, 0, LOCATE('(',Address)) FROM EmployeeInfo;
 CREATE TABLE NewTable AS SELECT * FROM EmployeeInfo;
 
 ---
---Q7. Write q query to find all the employees whose salary is between 50000 to 100000.
+--Q7. Write a query to find all the employees whose salary is between 50000 to 100000.
 SELECT * FROM EmployeePosition WHERE Salary BETWEEN '50000' AND '100000';
 
 
@@ -58,18 +58,18 @@ SELECT CONCAT(EmpFname, ' ', EmpLname) AS 'FullName' FROM EmployeeInfo;
 
 ---
 --Q11. Write a query find number of employees whose DOB is between 02/05/1970 to 31/12/1975 and are grouped according to gender
-SELECT COUNT(*), Gender FROM EmployeeInfo WHERE DOB BETWEEN '02/05/1970 ' AND '31/12/1975' GROUP BY Gender;
+SELECT COUNT(*), Gender FROM EmployeeInfo 
+WHERE DOB BETWEEN '1960-05-02' AND '1999-12-11' 
+GROUP BY Gender;
 
 ---
 --Q12. Write a query to fetch all the records from the EmployeeInfo table ordered by EmpLname in descending order and Department in the ascending order.
 
---To order the records in ascending and descnding order, you have to use the ORDER BY statement in SQL.
 SELECT * FROM EmployeeInfo ORDER BY EmpFname desc, Department asc;
 
 ---
 --Q13. Write a query to fetch details of employees whose EmpLname ends with an alphabet ‘A’ and contains five alphabets.
 
---To fetch details mathcing a certain value, you have to use the LIKE operator in SQL.
 SELECT * FROM EmployeeInfo WHERE EmpLname LIKE '____a';
 
 ----
@@ -92,13 +92,8 @@ FROM EmployeeInfo GROUP BY Department
 ORDER BY EmpDeptCount ASC;
 
 
----Q18. Write a query to calculate the even and odd records from a table.
+---Q18. MOD() 
 
---To retrieve the even records from a table, you have to use the MOD() function as follows:
-SELECT EmpID FROM (SELECT rowno, EmpID from EmployeeInfo) WHERE MOD(rowno,2)=0;
-
---Similarly, to retrieve the odd records from a table, you can write a query as follows:
-SELECT EmpID FROM (SELECT rowno, EmpID from EmployeeInfo) WHERE MOD(rowno,2)=1;
 
 ---Q19. Write a SQL query to retrieve employee details from EmployeeInfo table who have a date of joining in the EmployeePosition table.
 SELECT * FROM EmployeeInfo E 
